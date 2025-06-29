@@ -1,0 +1,20 @@
+<launch>
+    <!-- 启动你的节点 -->
+    <node name="robot_graph" pkg="graph_exploration" type="graph" output="screen">
+        <!-- 设置参数 -->
+        <param name="sample_rate" value="7" />
+        <param name="rebuild_map_frequency" value="3" />
+        <param name="check_safety_depth" value="10" />
+        <param name="frontier_threshold" value="50" />
+        <param name="cost_diff_threshold" value="3.0" />
+        <param name="velocity_step" value="0.2" />
+        <param name="turn_step" value="0.32" />
+        <param name="occupied_grids_threshold" value="3" />
+        <param name="cluster_info_threshold" value="20" />
+        <param name="roomToCluster_dis_threshold" value="4.0" />
+        <param name="roomToCluster_matchRate_threshold" value="0.8" />
+        <param name="erosion_round" value="3" />
+        <param name="safety_gain" value="1.8" />
+        <param name="goal_gain" value="1.0" />
+    </node>
+</launch>

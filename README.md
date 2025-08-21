@@ -17,7 +17,7 @@ ROS版本为Noetic，可以执行以下指令来安装依赖
 sudo apt-get update
 sudo apt-get install ros-noetic-teleop-twist-keyboard ros-noetic-amcl ros-noetic-move-base ros-noetic-slam-gmapping ros-noetic-slam-karto ros-noetic-dwa-local-planner ros-noetic-teb-local-planner ros-noetic-uvc-camera ros-noetic-map-server ros-noetic-hector-slam* ros-noetic-global-planner ros-noetic-navfn
 ```
-
+遇到无法找到功能包的问题不要紧，不影响编译。
 安装完依赖后可以执行以下命令来编译
 
 ```bash

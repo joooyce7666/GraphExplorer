@@ -38,8 +38,14 @@ source ~/.bashrc
 source ~/catkin_ws/devel/setup.bash
 ```
 
-打开robot_navigation/launch/robot_slam_laser.launch文件，将open_rviz和simulation和改为true，将<include file="$(find robot_simulation)/launch/simulation_one_robot.launch"/>这一行改为<include file="$(find nanorobot_description)/launch/simulation.launch"/>
-
+打开robot_navigation/launch/robot_slam_laser.launch文件，将open_rviz和simulation和改为true，将
+```bash
+<include file="$(find robot_simulation)/launch/simulation_one_robot.launch"/>
+```
+这一行改为
+```bash
+<include file="$(find nanorobot_description)/launch/simulation.launch"/>
+```
 然后打开nanorobot_description/launch/simulation.launch，在<arg name="world_name" value="$(find nanorobot_description)/worlds/room.world"/>中写想要做实验的场景的.world包路径，现在可以开始运行仿真环境和rviz了
 ```bash
 cd ~/catkin_ws

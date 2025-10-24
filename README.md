@@ -1,7 +1,7 @@
 # GraphExplorer
 A Graph-Based Method for Efficient Frontier Detection and Traversability Assessment in Autonomous Exploration
 
-机器平台使用的是冰达品牌的二轮差速机器人，此项目使用了冰达机器人平台的两个功能包，其功能包链接分别为：https://gitee.com/bingda-robot/nanorobot_description
+机器平台使用的是冰达品牌的二轮差速机器人，此项目使用了冰达机器人平台的两个功能包，其功能包链接分别为：https://gitee.com/bingda-robot/nanorobot_description，
 https://gitee.com/bingda-robot/robot_navigation
 
 可以执行以下指令来下载功能包
